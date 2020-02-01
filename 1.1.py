@@ -9,5 +9,5 @@ while True:
     for value in match:
         filename.write(str(value))
     num = num + 1
-    if int(r.status_code) > 200 :
+    if int(r.status_code) != 200 :
         break
